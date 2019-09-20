@@ -1,0 +1,25 @@
+{
+  "name": "alupuleasa/compare-db",
+  "description": "Compare DB Tool",
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "files": [
+      "files/dd.php"
+    ],
+    "psr-4": {
+      "CompareDB\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "files": [
+      "files/dd.php"
+    ],
+    "psr-4": {
+      "CompareDB\\": "src/"
+    }
+  }
+}
